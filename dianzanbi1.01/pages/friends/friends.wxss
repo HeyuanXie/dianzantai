@@ -1,0 +1,4 @@
+/* pages/friends/friends.wxss */
+.task-list {
+  margin-top: 12rpx;
+}

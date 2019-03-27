@@ -1,0 +1,15 @@
+<!--pages/transfer/transfer.wxml-->
+<view>
+  <view class='search'>
+    <view class='l-l'>
+    <image class='i_sousuo'></image>
+      <input placeholder='搜索' placeholder-class='placeholder'></input>
+    </view>
+  </view>
+  <view class='task-list'>
+    <navigator class='list-item' url='./addressBook'>
+      <view class='l-l'>转账给朋友</view>
+      <view class='l-r i_jiantou'></view>
+    </navigator>
+  </view>
+</view>

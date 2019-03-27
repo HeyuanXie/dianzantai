@@ -1,0 +1,4 @@
+/* pages/balance/addressBook.wxss */
+.task-list {
+  margin-top: 12rpx;
+}

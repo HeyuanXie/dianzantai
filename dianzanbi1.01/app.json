@@ -1,16 +1,53 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/register/register",
     "pages/register2/register2",
-    "pages/balance/balance",
     "pages/detail/detail",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/balance/balance",
+    "pages/transfer/transfer",
+    "pages/transfer/addressBook",
+    "pages/mine/mine",
+    "pages/friends/friends",
+    "pages/transfer/present"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/balance/balance",
+        "text": "主页",
+        "iconPath": "images/zhuye.png",
+        "selectedIconPath": "images/zhuye-2.png"
+      },
+      {
+        "pagePath": "pages/transfer/transfer",
+        "text": "转账",
+        "iconPath": "images/zhuanzhang.png",
+        "selectedIconPath": "images/zhuanzhang-2.png"
+      },
+      {
+        "pagePath": "pages/friends/friends",
+        "text": "通讯录",
+        "iconPath": "images/tongxunlu.png",
+        "selectedIconPath": "images/tongxunlu-2.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/wode.png",
+        "selectedIconPath": "images/wode-2.png"
+      }
+    ],
+    "color": "#333",
+    "selectedColor": "#d81e06",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "#eaeaea"
   }
 }

@@ -1,0 +1,41 @@
+/* pages/transfer/present.wxss */
+page {
+  background-color: white;
+}
+.target {
+  text-align: center;
+  padding: 24rpx 0;
+}
+
+.content {
+  padding: 60rpx 30rpx 0;
+
+}
+.amountInput {
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 18px;
+  padding: 40rpx 0 20rpx 10rpx;
+}
+
+.add, .sub {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.sub {
+  margin-left: 30rpx;
+}
+
+.commitBtn {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 60rpx 30rpx;
+  width: 690rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  border-radius: 45rpx;
+  text-align: center;
+  color: white;
+  font-size: 32rpx;
+  background-color: #d81e06;
+}

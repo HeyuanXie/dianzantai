@@ -93,8 +93,9 @@ Page({
     
     //if (this.data.isreg) wx.redirectTo({ url: '../balance/balance' });
     //else wx.redirectTo({ url: '../register/register' })
-    wx.redirectTo({ url: '../balance/balance' });
-
+    wx.reLaunch({
+      url: '../balance/balance',
+    })
   },
 
   /**

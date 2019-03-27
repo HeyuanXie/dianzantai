@@ -1,0 +1,8 @@
+<!--pages/balance/addressBook.wxml-->
+<view>
+  <view class='task-list'>
+    <view class='list-item' wx:for="{{dataArray}}" bindtap='present' data-name='{{item.name}}' data-userId='{{item.userId}}'>
+      <view class='l-l'>{{item.name}}</view>
+    </view>
+  </view>
+</view>

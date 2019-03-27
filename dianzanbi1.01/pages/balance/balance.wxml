@@ -38,8 +38,9 @@
 
     </view>
 
-    <view style='height:100rpx;padding-top:20rpx;padding-left:50rpx;'>
-      <text style='color:black;font-size:35rpx;' bindtap='getdetail'>交易明细 >> </text>
+    <view class='list-item' style='padding-right: 0;' bindtap='getDetail'>
+      <view class='l-l'>交易明细</view>
+      <view class='l-r i_jiantou'></view>
     </view>
 
 
@@ -48,7 +49,7 @@
 
 </view>
 
-<view style='position:fixed;bottom:0rpx;width:100%;display:flex;flex-direction:row;justify-content:center;'>
+<!-- <view style='position:fixed;bottom:0rpx;width:100%;display:flex;flex-direction:row;justify-content:center;'>
   <view style='width:150rpx;'>
     <button size='mini' type='primary' class='free-btn-bordernone' bindtap='gobalance'>主页</button>
   </view>
@@ -61,4 +62,4 @@
   <view style='width:150rpx;'>
     <button size='mini' type='default' class='free-btn-bordernone'>我的</button>
   </view>
-</view>
+</view> -->

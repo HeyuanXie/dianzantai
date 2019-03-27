@@ -74,9 +74,11 @@ Page({
   /**
    * 跳转至获取交易明细页面
    */
-  getdetail:function()
+  getDetail:function()
   {
-    wx.redirectTo({ url: '../detail/detail' });
+    wx.navigateTo({
+      url: '../detail/detail',
+    })
   },
 
 

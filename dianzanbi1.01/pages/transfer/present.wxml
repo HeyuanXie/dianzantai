@@ -1,0 +1,19 @@
+<!--pages/transfer/present.wxml-->
+<view>
+  <view class='target'>{{name}}</view>
+  <view class='content'>
+    <view class='l-l'>赠送金额:</view>
+    <view style='display: flex; flex-direction: row; border-bottom: 1px solid #ededed;'>
+      <input class='amountInput' type='number' placeholder='输入赠送金额' value='{{amount}}' bindinput='amountInputing' bindblur='amountInput'></input>
+      <view class='l-r'>
+        <image class='add' src='/images/jia.png' bindtap='add'></image>
+        <image class='sub' src='/images/jian.png' bindtap='sub'></image>
+      </view>
+    </view>
+  <view style='padding: 30rpx 24rpx 0; margin-top: 10rpx; border: 1rpx solid #f5f5f5;'>
+    <textarea class='textview' placeholder='添加备注(50字以内)' placeholder-class='placeholder' maxlength='50' bindblur='markInput'></textarea>
+  </view>
+  </view>
+
+  <view class='commitBtn'>确认转账</view>
+</view>

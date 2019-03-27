@@ -1,0 +1,8 @@
+<!--pages/friends/friends.wxml-->
+<view>
+  <view class='task-list'>
+    <view class='list-item' wx:for="{{dataArray}}">
+      <view class='l-l'>{{item.name}}</view>
+    </view>
+  </view>
+</view>

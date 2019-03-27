@@ -1,0 +1,37 @@
+/* pages/transfer/transfer.wxss */
+.task-list {
+  margin-top: 12rpx;
+}
+
+.l-r {
+  padding-right: 0;
+}
+
+.search {
+  height: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+padding: 0 30rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+  background-color: white;
+
+}
+
+.search .l-l {
+  background-color: #f0f0f0;
+  height: 68rpx;
+  width: 100%;
+  border-radius: 8rpx;
+}
+
+.search input {
+  padding-left: 67rpx;
+}
+
+.i_sousuo {
+  position: absolute;
+  left: 50rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
